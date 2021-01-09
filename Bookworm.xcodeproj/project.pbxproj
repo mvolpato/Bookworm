@@ -17,6 +17,12 @@
 		5B6BCB3C25A7717B00BC1045 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BCB2325A7717800BC1045 /* Persistence.swift */; };
 		5B6BCB3D25A7717B00BC1045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6BCB2425A7717B00BC1045 /* Assets.xcassets */; };
 		5B6BCB3E25A7717B00BC1045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6BCB2425A7717B00BC1045 /* Assets.xcassets */; };
+		5BF9E60A25AA41D30036AC7D /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9E60925AA41D30036AC7D /* AddBookView.swift */; };
+		5BF9E60B25AA41D30036AC7D /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9E60925AA41D30036AC7D /* AddBookView.swift */; };
+		5BF9E61325AA4CDF0036AC7D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9E61225AA4CDF0036AC7D /* RatingView.swift */; };
+		5BF9E61425AA4CDF0036AC7D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9E61225AA4CDF0036AC7D /* RatingView.swift */; };
+		5BF9E61825AA4E550036AC7D /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9E61725AA4E550036AC7D /* EmojiRatingView.swift */; };
+		5BF9E61925AA4E550036AC7D /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9E61725AA4E550036AC7D /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,9 @@
 		5B6BCB3125A7717B00BC1045 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6BCB3325A7717B00BC1045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B6BCB3425A7717B00BC1045 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5BF9E60925AA41D30036AC7D /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		5BF9E61225AA4CDF0036AC7D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		5BF9E61725AA4E550036AC7D /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,9 @@
 				5B6BCB2325A7717800BC1045 /* Persistence.swift */,
 				5B6BCB2425A7717B00BC1045 /* Assets.xcassets */,
 				5B6BCB1F25A7717800BC1045 /* Bookworm.xcdatamodeld */,
+				5BF9E60925AA41D30036AC7D /* AddBookView.swift */,
+				5BF9E61225AA4CDF0036AC7D /* RatingView.swift */,
+				5BF9E61725AA4E550036AC7D /* EmojiRatingView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -197,8 +209,11 @@
 			files = (
 				5B6BCB3525A7717B00BC1045 /* Bookworm.xcdatamodeld in Sources */,
 				5B6BCB3B25A7717B00BC1045 /* Persistence.swift in Sources */,
+				5BF9E61825AA4E550036AC7D /* EmojiRatingView.swift in Sources */,
 				5B6BCB3725A7717B00BC1045 /* BookwormApp.swift in Sources */,
+				5BF9E61325AA4CDF0036AC7D /* RatingView.swift in Sources */,
 				5B6BCB3925A7717B00BC1045 /* ContentView.swift in Sources */,
+				5BF9E60A25AA41D30036AC7D /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +223,11 @@
 			files = (
 				5B6BCB3625A7717B00BC1045 /* Bookworm.xcdatamodeld in Sources */,
 				5B6BCB3C25A7717B00BC1045 /* Persistence.swift in Sources */,
+				5BF9E61925AA4E550036AC7D /* EmojiRatingView.swift in Sources */,
 				5B6BCB3825A7717B00BC1045 /* BookwormApp.swift in Sources */,
+				5BF9E61425AA4CDF0036AC7D /* RatingView.swift in Sources */,
 				5B6BCB3A25A7717B00BC1045 /* ContentView.swift in Sources */,
+				5BF9E60B25AA41D30036AC7D /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
