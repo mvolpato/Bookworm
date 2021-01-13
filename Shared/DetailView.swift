@@ -13,6 +13,12 @@ struct DetailView: View {
     @Environment(\.presentationMode) var presentationMode
     @State private var showingDeleteAlert = false
     
+    static private var dateFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        return formatter
+    }
+    
     let book: Book
     
     var body: some View {
@@ -42,6 +48,9 @@ struct DetailView: View {
                 // would be able to change the rating from this view.
                 RatingView(rating: .constant(Int(self.book.rating)))
                     .font(.largeTitle)
+                
+                Text(Self.dateFormatter.string(from: self.book.date ?? Date()))
+                    .padding()
 
                 Spacer()
             }
